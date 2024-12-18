@@ -1,10 +1,8 @@
-# fast2sms
-send otp via fast2sms
-here you need to install guzzlehttp
+# Fast2sms Service
 
-- composer require guzzlehttp/guzzle
-- create config file which named fast2sms.php
-    return [
-        'authorization_token' => env('FAST2SMS_AUTHORIZATION_TOKEN'), //your fast2sms authorization token or api key
-    ];
-    
+This PHP class provides a service to send OTP (One Time Password) messages using the Fast2sms API.
+
+## Installation
+
+To use this service, you need to have the Guzzle HTTP client installed. You can install it via Composer:
+
