@@ -6,3 +6,4 @@ This PHP class provides a service to send OTP (One Time Password) messages using
 
 To use this service, you need to have the Guzzle HTTP client installed. You can install it via Composer:
 
+- Add `FAST2SMS_TOKEN` key into your laravel env.
